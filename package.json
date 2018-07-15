@@ -1,0 +1,11 @@
+{
+  "name": "tdd-workshop-javascript",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
