@@ -6,7 +6,7 @@ const symbolGroups = [
 ];
 
 module.exports = function romanNumeral(num) {
-  return String(num).split('').reverse()
+  return Array.from(String(num)).reverse()
     .map(d => parseInt(d))
     .map((d, idx) => toRomanNumeral(d, symbolGroups[idx]))
     .reduce((acc, r) => r + acc, '');
